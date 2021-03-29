@@ -63,4 +63,4 @@
 - `<img src="Source to the image" alt="Aletrnate text" height=10px width=10px>`
 ## src syntax:-
 - From online source from example a website. EG: `https://bit.ly/39o8bRp` 
-- From local directory. EG: `img.jpg` 
+- From local directory. EG: `img.jpg`;
