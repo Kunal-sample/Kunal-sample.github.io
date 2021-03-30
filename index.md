@@ -63,4 +63,38 @@
 - `<img src="Source to the image" alt="Aletrnate text" height=10px width=10px>`
 ## src syntax:-
 - From online source from example a website. EG: `https://bit.ly/39o8bRp` 
-- From local directory. EG: `img.jpg`;
+- From local directory. EG: `img.jpg`
+
+# Paragraph:-
+## @params:-
+- Content: {
+    type: String;
+    required: true;
+}
+## syntax:-
+- `<p>Text</p>`
+
+# Anchor tags:-
+## Provide links
+## @params:-
+- href: {
+    fullform: HyperLinkReference;
+    type: string;
+    required: true;
+    default: `#`;
+}
+- text: {
+    type: String;
+    required: true;
+}
+- target: {
+    type: string;
+    optional: true;
+}
+## Other HREF values:-
+- Email: {
+    syntax: `<a href="mailto:durga6ku@gmail.com">Email</a>`
+}
+- Telephone: {
+    syntax: `<a href="tel:+919355491100">Call</a>`
+}
